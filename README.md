@@ -15,6 +15,13 @@ I'm transitioning into civilian IT and technical support, combining my professio
 - **Hardware:** PC assembly, hardware upgrades, electronics diagnostics, multimeters, wiring diagrams
 - **Operations:** Technical documentation, preventive maintenance, equipment accountability, technical training
 
+## 🚀 Recent Projects & Accomplishments
+
+- **Proxmox Virtualization:** Deployed a Proxmox VE server hosting Linux virtual machines and containers, with secure remote administration through Tailscale.
+- **Automated Backups:** Configured scheduled Mealie application backups, off-host transfers using SSH/rsync, and successfully tested virtual machine restoration.
+- **Infrastructure Monitoring:** Deployed Uptime Kuma to monitor service availability and backup completion, with email alerts for detected failures.
+- **Linux Personal Cloud:** Built a Raspberry Pi 5 personal cloud running Nextcloud, Immich, Docker-based services, and automated photo synchronization.
+
 ## 🖥️ Featured Projects
 
 ### [Self-Hosted Homelab & Personal Cloud](https://github.com/CHBlaylock/homelab-public)
