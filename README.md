@@ -1,16 +1,46 @@
-## Hi there 👋
+# Hi, I'm Colton 
 
-<!--
-**CHBlaylock/CHBlaylock** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### IT Support | Networking | Linux | Infrastructure | Electronics Troubleshooting
 
-Here are some ideas to get you started:
+I'm a medically retired U.S. Army Sergeant First Class (E-7) with approximately 18 years of military experience in technical troubleshooting, electronic systems, equipment maintenance, training, and leadership.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm transitioning into civilian IT and technical support, combining my professional troubleshooting background with hands-on experience building and maintaining a personal homelab.
+
+## 🔧 Technical Skills
+
+- **Operating Systems:** Linux, Ubuntu Server, Debian, Windows
+- **Networking:** TCP/IP, DNS, DHCP, Pi-hole, Tailscale VPN, network troubleshooting
+- **Infrastructure:** Proxmox VE, virtualization, Docker, self-hosted services
+- **Automation:** Bash, Python, systemd
+- **Hardware:** PC assembly, hardware upgrades, electronics diagnostics, multimeters, wiring diagrams
+- **Operations:** Technical documentation, preventive maintenance, equipment accountability, technical training
+
+## 🖥️ Featured Projects
+
+### [Self-Hosted Homelab & Personal Cloud](https://github.com/CHBlaylock/homelab-public)
+
+Hands-on infrastructure project involving Raspberry Pi systems, Linux, Docker, Proxmox virtualization, DNS services, remote access, automated backups, and infrastructure monitoring.
+
+The repository documents architecture decisions, troubleshooting procedures, deployments, and lessons learned.
+
+### [Homelab Hardware Projects](https://github.com/CHBlaylock/homelab-hardware-projects-public)
+
+Documentation of hardware-related projects and infrastructure planning.
+
+## 📚 Currently Learning
+
+- Enterprise IT service desk workflows through SysDesks
+- Incident ticketing and end-user support procedures
+- Windows desktop support and account administration
+- Linux and network infrastructure management
+
+## 🎯 Career Interests
+
+I'm pursuing opportunities in IT support, desktop support, networking, electronics technology, and technical field service.
+
+I'm based in the Oklahoma City metropolitan area and open to remote, hybrid, and local on-site opportunities.
+
+## 🔗 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/colton-edelmann/)
+- [Homelab Portfolio](https://github.com/CHBlaylock/homelab-public)
