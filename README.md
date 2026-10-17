@@ -21,13 +21,12 @@ I'm transitioning into civilian IT and technical support, combining my professio
 - **Automated Backups:** Configured scheduled Mealie application backups, off-host transfers using SSH/rsync, and successfully tested virtual machine restoration.
 - **Infrastructure Monitoring:** Deployed Uptime Kuma to monitor service availability and backup completion, with email alerts for detected failures.
 - **Linux Personal Cloud:** Built a Raspberry Pi 5 personal cloud running Nextcloud, Immich, Docker-based services, and automated photo synchronization.
-- **Linux Security Sandbox:** Building a security checkpoint to inspect untrusted EPUB ebooks before they enter my self-hosted library. The isolated Linux test environment uses systemd restrictions, descriptor-based file handling, and malformed-archive regression tests to reduce risk to library services. Five rejection tests passed; importing remains disabled pending further validation.
-
+- **Media Server Infrastructure:** Provisioned a dedicated Proxmox Linux VM with Docker Compose, service-specific Linux accounts, shared-media directory permissions, and a planned Jellyfin and media automation stack. Application deployment is in progress.\n
 ## 🖥️ Featured Projects
 
 ### [Self-Hosted Homelab & Personal Cloud](https://github.com/CHBlaylock/homelab-public)
 
-Hands-on infrastructure project involving Raspberry Pi systems, Linux, Docker, Proxmox virtualization, DNS services, remote access, automated backups, and infrastructure monitoring.
+Hands-on infrastructure project involving Raspberry Pi systems, Linux, Docker, Proxmox virtualization, DNS services, remote access, automated backups, infrastructure monitoring, and a dedicated media-server VM under development.
 
 The repository documents architecture decisions, troubleshooting procedures, deployments, and lessons learned.
 
