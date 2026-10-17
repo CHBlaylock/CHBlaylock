@@ -21,7 +21,8 @@ I'm transitioning into civilian IT and technical support, combining my professio
 - **Automated Backups:** Configured scheduled Mealie application backups, off-host transfers using SSH/rsync, and successfully tested virtual machine restoration.
 - **Infrastructure Monitoring:** Deployed Uptime Kuma to monitor service availability and backup completion, with email alerts for detected failures.
 - **Linux Personal Cloud:** Built a Raspberry Pi 5 personal cloud running Nextcloud, Immich, Docker-based services, and automated photo synchronization.
-- **Media Server Infrastructure:** Provisioned a dedicated Proxmox Linux VM with Docker Compose, service-specific Linux accounts, shared-media directory permissions, and a planned Jellyfin and media automation stack. Application deployment is in progress.\n
+- **Media Server Infrastructure:** Deployed a dedicated Proxmox VM running Jellyfin, Audiobookshelf, Calibre-Web Automated, Navidrome, Gluetun and qBittorrent, with Sonarr/Radarr download and import integration. Verified private Tailscale access, Jellyfin playback, VPN egress isolation, and fail-closed behavior for torrent traffic. Built media validation and approval workflows and corrected library ACLs so imported TV episodes appear in Jellyfin. A coordinated metadata-inspection and approved-download service is enabled; scheduled-run validation and additional retry automation remain in progress.
+
 ## 🖥️ Featured Projects
 
 ### [Self-Hosted Homelab & Personal Cloud](https://github.com/CHBlaylock/homelab-public)
