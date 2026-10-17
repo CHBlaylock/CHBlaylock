@@ -21,7 +21,7 @@ I'm transitioning into civilian IT and technical support, combining my professio
 - **Automated Backups:** Configured scheduled Mealie application backups, off-host transfers using SSH/rsync, and successfully tested virtual machine restoration.
 - **Infrastructure Monitoring:** Deployed Uptime Kuma to monitor service availability and backup completion, with email alerts for detected failures.
 - **Linux Personal Cloud:** Built a Raspberry Pi 5 personal cloud running Nextcloud, Immich, Docker-based services, and automated photo synchronization.
-- **Linux Security Sandbox:** Developed and validated an isolated EPUB file-inspection test environment using systemd service restrictions, descriptor-based file handling, and adversarial archive tests. Verified five malformed-input rejections without changing production services.
+- **Linux Security Sandbox:** Building a security checkpoint to inspect untrusted EPUB ebooks before they enter my self-hosted library. The isolated Linux test environment uses systemd restrictions, descriptor-based file handling, and malformed-archive regression tests to reduce risk to library services. Five rejection tests passed; importing remains disabled pending further validation.
 
 ## 🖥️ Featured Projects
 
