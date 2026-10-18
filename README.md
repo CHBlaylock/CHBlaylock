@@ -21,7 +21,7 @@ I'm transitioning into civilian IT and technical support, combining my professio
 - **Automated Backups:** Configured scheduled Mealie application backups, off-host transfers using SSH/rsync, and successfully tested virtual machine restoration.
 - **Infrastructure Monitoring:** Deployed Uptime Kuma to monitor service availability and backup completion, with email alerts for detected failures.
 - **Linux Personal Cloud:** Built a Raspberry Pi 5 personal cloud running Nextcloud, Immich, Docker-based services, and automated photo synchronization.
-- **Media Server Infrastructure:** Deployed a dedicated Proxmox VM running Jellyfin, Audiobookshelf, Calibre-Web Automated, Navidrome, Gluetun and qBittorrent, with Sonarr/Radarr download and import integration. Verified private Tailscale access, Jellyfin playback, VPN egress isolation, and fail-closed behavior for torrent traffic. Built media validation and approval workflows and corrected library ACLs so imported TV episodes appear in Jellyfin. A coordinated metadata-inspection and approved-download service is enabled; scheduled-run validation and additional retry automation remain in progress.
+- **Media Server Infrastructure:** Deployed a dedicated Proxmox VM hosting Jellyfin, Audiobookshelf, Calibre-Web Automated and Navidrome, with Sonarr/Radarr library organization and metadata management. Verified private Tailscale access and Jellyfin playback, implemented Python/Bash media validation and import automation, and corrected Linux ACLs to ensure media visibility. Additional scheduled-workflow verification is ongoing.
 
 ## 🖥️ Featured Projects
 
@@ -55,4 +55,4 @@ I'm based in the Oklahoma City metropolitan area and open to remote, hybrid, and
 
 ## October 2026: Media automation milestone
 
-Expanded the Proxmox media VM into a running multi-service Docker stack with Jellyfin, Sonarr, Radarr, Prowlarr, Seerr, qBittorrent/Gluetun, Calibre-Web Automated, Navidrome, and Audiobookshelf. Implemented and debugged Linux/Python systemd-driven media import workflows, including filename parsing, duplicate avoidance, media-library permissions, EPUB/PDF validation, and an automated ebook approval timer. Verified remote Jellyfin access through Tailscale, torrent VPN isolation and fail-closed behavior, and successful library imports. Music, podcast, audiobook workflows and fresh-download unattended ebook verification are next.
+Expanded the Proxmox media VM into a multi-service Docker environment with Jellyfin, Sonarr, Radarr, Prowlarr, Seerr, Calibre-Web Automated, Navidrome, and Audiobookshelf. Implemented and debugged Linux/Python systemd-driven media organization and metadata workflows, including filename parsing, duplicate avoidance, library permissions, EPUB/PDF validation, and an automated ebook approval timer. Verified remote Jellyfin access through Tailscale and successful library imports. Music, podcast and audiobook workflows and unattended ebook verification remain in progress.
