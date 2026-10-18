@@ -52,3 +52,7 @@ I'm based in the Oklahoma City metropolitan area and open to remote, hybrid, and
 
 - [LinkedIn](https://www.linkedin.com/in/colton-edelmann/)
 - [Homelab Portfolio](https://github.com/CHBlaylock/homelab-public)
+
+## October 2026: Media automation milestone
+
+Expanded the Proxmox media VM into a running multi-service Docker stack with Jellyfin, Sonarr, Radarr, Prowlarr, Seerr, qBittorrent/Gluetun, Calibre-Web Automated, Navidrome, and Audiobookshelf. Implemented and debugged Linux/Python systemd-driven media import workflows, including filename parsing, duplicate avoidance, media-library permissions, EPUB/PDF validation, and an automated ebook approval timer. Verified remote Jellyfin access through Tailscale, torrent VPN isolation and fail-closed behavior, and successful library imports. Music, podcast, audiobook workflows and fresh-download unattended ebook verification are next.
