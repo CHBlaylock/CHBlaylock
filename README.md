@@ -66,3 +66,7 @@ Expanded the Proxmox media VM into a multi-service Docker environment with Jelly
 - Maintained existing Tailscale remote access, Uptime Kuma monitoring, and VPN-isolated media download traffic during the changes.
 
 These projects demonstrate Linux administration, Docker Compose, API troubleshooting, change control, service monitoring and practical recovery planning.
+
+## November 2, 2026: Docker update visibility
+
+Configured and verified Homepage's native **What's Up Docker widget** against an authenticated WUD instance. Troubleshot an `Unauthorized` API response, corrected the service environment loading with a systemd restart, and confirmed the dashboard displays **16 monitored containers and 8 available updates**. Kept the full WUD dashboard available for per-container version details and preserved manual approval of updates. This work demonstrates API integration, environment-variable secret handling, Linux service management and operational monitoring.
