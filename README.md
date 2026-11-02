@@ -56,3 +56,13 @@ I'm based in the Oklahoma City metropolitan area and open to remote, hybrid, and
 ## October 2026: Media automation milestone
 
 Expanded the Proxmox media VM into a multi-service Docker environment with Jellyfin, Sonarr, Radarr, Prowlarr, Seerr, Calibre-Web Automated, Navidrome, and Audiobookshelf. Implemented and debugged Linux/Python systemd-driven media organization and metadata workflows, including filename parsing, duplicate avoidance, library permissions, EPUB/PDF validation, and an automated ebook approval timer. Verified remote Jellyfin access through Tailscale and successful library imports. Music, podcast and audiobook workflows and unattended ebook verification remain in progress.
+
+## November 2026: Jellyfin upgrade and monitoring integration
+
+- Upgraded Jellyfin from 10.11.6 to **12.4** in a dedicated Proxmox media VM, verified a compressed application-data backup, and confirmed successful database migration and playback.
+- Restored a **Homepage** Jellyfin integration using the newer API, showing movie/series/episode totals and live Active Streams without rebuilding the dashboard.
+- Deployed **What's Up Docker** to track container image updates without automatically changing production services; integrated its shortcut into Homepage.
+- Diagnosed API 404/401 responses, identified an obsolete endpoint, adjusted the widget configuration, and rotated the integration API key after testing.
+- Maintained existing Tailscale remote access, Uptime Kuma monitoring, and VPN-isolated media download traffic during the changes.
+
+These projects demonstrate Linux administration, Docker Compose, API troubleshooting, change control, service monitoring and practical recovery planning.
